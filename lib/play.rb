@@ -38,7 +38,6 @@ end
 def play(board)
   moves = 0
   until moves == 9
-    play(board)
-    moves+= 1
+    moves += 1
   end
 end
